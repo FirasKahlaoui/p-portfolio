@@ -7,6 +7,10 @@ import type {
   TProject,
 } from "../types";
 
+import peter from "../assets/person/peter.jpg";
+import lois from "../assets/person/lois.jpg";
+import meg from "../assets/person/meg.jpg";
+
 import {
   mobile,
   backend,
@@ -189,27 +193,27 @@ const experiences: TExperience[] = [
 const testimonials: TTestimonial[] = [
   {
     testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-    name: "Sara Lee",
+      "I thought it was impossible to make a website as beautiful as our product, but Firas proved me wrong.",
+    name: "Peter Griffin",
     designation: "CFO",
-    company: "Acme Co",
-    image: "https://randomuser.me/api/portraits/women/4.jpg",
+    company: "Data Corp",
+    image: peter,
   },
   {
     testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
-    name: "Chris Brown",
+      "You need Data scraped, Firas is the guy to go to. He's fast, efficient, and a pleasure to work with. Highly recommended.",
+    name: "Lois Lane",
     designation: "COO",
-    company: "DEF Corp",
-    image: "https://randomuser.me/api/portraits/men/5.jpg",
+    company: "Daily Planet",
+    image: lois,
   },
   {
     testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: "Lisa Wang",
+      "Analyzing data is a breeze with Firas. He's a master at what he does and a great team player.",
+    name: "Meg Zuckerman",
     designation: "CTO",
-    company: "456 Enterprises",
-    image: "https://randomuser.me/api/portraits/women/6.jpg",
+    company: "Tech Co",
+    image: meg,
   },
 ];
 

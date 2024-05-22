@@ -3,8 +3,10 @@ import { Link } from "react-router-dom";
 
 import { styles } from "../../constants/styles";
 import { navLinks } from "../../constants";
-import { logo, menu, close } from "../../assets";
+import { menu, close } from "../../assets";
 import { config } from "../../constants/config";
+
+import logo_f from "../../assets/logo_f.png";
 
 const Navbar = () => {
   const [active, setActive] = useState<string | null>();
@@ -64,7 +66,7 @@ const Navbar = () => {
             window.scrollTo(0, 0);
           }}
         >
-          <img src={logo} alt="logo" className="h-9 w-9 object-contain" />
+          <img src={logo_f} alt="logo" style={{height: '80px', width: '80px'}} />
           <p className="flex cursor-pointer text-[18px] font-bold text-white ">
             {config.html.title}
           </p>
