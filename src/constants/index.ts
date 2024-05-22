@@ -13,27 +13,30 @@ import {
   creator,
   web,
   javascript,
-  typescript,
   html,
   css,
   reactjs,
-  tailwind,
   nodejs,
   mongodb,
   git,
   docker,
-  meta,
-  starbucks,
-  tesla,
-  shopify,
   carrent,
   jobit,
   tripguide,
-  threejs,
 } from "../assets";
 
-import hadoop from "../assets/tech/hadoop.png";
+import python from "../assets/tech/python-icon.svg";
+import java from "../assets/tech/java-icon.svg";
+import mysql from "../assets/tech/mysql-icon.svg";
+import scala from "../assets/tech/scala-lang-icon.svg";
+
+import flask from "../assets/tech/pocoo_flask-icon.svg";
+
 import spark from "../assets/tech/spark.png";
+import fulljs from "../assets/company/full-stack-javascript-developer.jpg"
+import full from "../assets/company/Full-Stack-Developer.png"
+import bigdata from "../assets/company/bigdata.jpg"
+import skills from "../assets/company/skills.jpg"
 
 export const navLinks: TNavLink[] = [
   {
@@ -52,19 +55,19 @@ export const navLinks: TNavLink[] = [
 
 const services: TService[] = [
   {
-    title: "Web Developer",
-    icon: web,
+    title: "Big Data Analyst",
+    icon: backend,
   },
   {
-    title: "React Native Developer",
+    title: "Web Developer",
     icon: mobile,
   },
   {
     title: "Backend Developer",
-    icon: backend,
+    icon: web,
   },
   {
-    title: "Content Creator",
+    title: "Ultimate Debugger",
     icon: creator,
   },
 ];
@@ -83,28 +86,37 @@ const technologies: TTechnology[] = [
     icon: javascript,
   },
   {
-    name: "TypeScript",
-    icon: typescript,
-  },
-  {
     name: "React JS",
     icon: reactjs,
   },
   {
-    name: "Tailwind CSS",
-    icon: tailwind,
-  },
-  {
     name: "Node JS",
     icon: nodejs,
+  },
+
+  {
+    name: "Python",
+    icon: python,
+  },
+  {
+    name: "Flask",
+    icon: flask,
+  },
+  {
+    name: "Java",
+    icon: java,
+  },
+  {
+    name: "Scala",
+    icon: scala,
   },
   {
     name: "MongoDB",
     icon: mongodb,
   },
   {
-    name: "Three JS",
-    icon: threejs,
+    name: "MySQL",
+    icon: mysql,
   },
   {
     name: "git",
@@ -115,69 +127,64 @@ const technologies: TTechnology[] = [
     icon: docker,
   },
   {
-    name: "Hadoop",
-    icon: hadoop,
-  },
-  {
     name: "Spark",
     icon: spark,
   },
 ];
 
+
 const experiences: TExperience[] = [
   {
-    title: "React.js Developer",
-    companyName: "Starbucks",
-    icon: starbucks,
+    title: "Full Stack JavaScript Developer",
+    companyName: "Home",
+    icon: fulljs,
     iconBg: "#383E56",
-    date: "March 2020 - April 2021",
+    date: "January 2021 - June 2022",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Mastered full stack JavaScript development, starting with HTML, CSS, and JavaScript.",
+      "Advanced to front-end development using React.js and back-end development with Node.js.",
+      "Built dynamic, full-fledged web applications.",
     ],
   },
   {
-    title: "React Native Developer",
-    companyName: "Tesla",
-    icon: tesla,
+    title: "Full Stack Developer",
+    companyName: "ISAMM",
+    icon: full,
     iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
+    date: "August 2022 - April 2023",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Expanded skill set to include both web and mobile development.",
+      "Enhanced web development skills with advanced frameworks and tools.",
+      "Developed cross-platform applications using React Native.",
     ],
   },
   {
-    title: "Web Developer",
-    companyName: "Shopify",
-    icon: shopify,
+    title: "Big Data Analyst",
+    companyName: "ISAMM/ESCT",
+    icon: bigdata,
     iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
+    date: "September 2023 - May 2024",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Gained proficiency in Python for data analysis.",
+      "Learned big data technologies like Apache Spark and Hadoop.",
+      "Extracted valuable insights from complex data sets.",
     ],
   },
   {
-    title: "Full stack Developer",
-    companyName: "Meta",
-    icon: meta,
+    title: "Skill Development",
+    companyName: "ISAMM/ESCT",
+    icon: skills,
     iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
+    date: "May 2024 - Present",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Delving into web scraping and data collection techniques.",
+      "Using tools and libraries for efficient data gathering.",
+      "Staying updated with the latest trends and technologies.",
+      "Continuously improving skill set for robust and relevant expertise.",
     ],
   },
 ];
+
 
 const testimonials: TTestimonial[] = [
   {
